@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="uk.ac.gcu.mondayschild.MainActivity">
+     <item android:id="@+id/mBio"
+           android:icon="@mipmap/ic_menu_action_about"
+           android:title="@string/mBio"
+         app:showAsAction="ifRoom"/>
+     <item android:id="@+id/mQuit"
+           android:title="@string/mQuit"
+           android:icon="@mipmap/ic_menu_action_quit"
+         app:showAsAction="ifRoom"/>
+     <item android:id="@+id/mAbout"
+           android:icon="@mipmap/ic_menu_action_about"
+           android:title="@string/mAbout"
+         app:showAsAction="ifRoom"/>
+</menu>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="uk.ac.gcu.mondayschild.MainActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#4d1414" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get News"
+        android:id="@+id/submitBtn"
+        android:layout_below="@+id/datePickerBDay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:onClick="onClick" />
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
